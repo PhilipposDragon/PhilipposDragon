@@ -1,6 +1,6 @@
 <div align="center">
 
-# Filipe Fava
+# Philippos Dragon
 
 <img src="./docs/hello.svg" alt="Hello, World!" />
 
