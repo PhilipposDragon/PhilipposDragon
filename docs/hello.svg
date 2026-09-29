@@ -6,18 +6,16 @@
       fill: #3fb950;
     }
 
-    /* Digitação mais lenta */
     .mask {
-      animation: type 8s steps(12) infinite;
+      animation: type 8s steps(12, end) infinite;
     }
 
     .cursor {
       animation:
-        typeCursor 8s steps(12) infinite,
+        typeCursor 8s steps(12, end) infinite,
         blink .7s infinite;
     }
 
-    /* Pequena tremida quando uma nova letra aparece */
     .shake {
       animation: keypress .67s infinite;
       transform-origin: center;
@@ -28,16 +26,16 @@
         width: 0;
       }
       to {
-        width: 315px;
+        width: 320px;
       }
     }
 
     @keyframes typeCursor {
       from {
-        x: 90px;
+        transform: translateX(0);
       }
       to {
-        x: 405px;
+        transform: translateX(320px);
       }
     }
 
@@ -51,19 +49,15 @@
       0%, 90%, 100% {
         transform: translate(0, 0);
       }
-
       92% {
         transform: translate(-2px, 0);
       }
-
       94% {
         transform: translate(2px, 0);
       }
-
       96% {
         transform: translate(-1px, 1px);
       }
-
       98% {
         transform: translate(1px, -1px);
       }
@@ -83,9 +77,8 @@
 
   <g class="shake">
     <text
-      x="250"
+      x="90"
       y="70"
-      text-anchor="middle"
       class="typing"
       clip-path="url(#clip)">
       HELLO WORLD!
