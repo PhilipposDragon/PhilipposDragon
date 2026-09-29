@@ -1,20 +1,106 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="110" viewBox="0 0 500 110">
+
+  <style>
+    .typing {
+      font: bold 40px monospace;
+      fill: #3fb950;
+    }
+
+    .mask {
+      animation: type 8s steps(12) infinite;
+    }
+
+    .cursor {
+      animation:
+        typeCursor 8s steps(12) infinite,
+        blink 0.7s infinite;
+    }
+
+    .shake {
+      animation: keypress 0.67s infinite;
+      transform-origin: center;
+    }
+
+    @keyframes type {
+      from {
+        width: 0;
+      }
+      to {
+        width: 290px;
+      }
+    }
+
+    @keyframes typeCursor {
+      from {
+        x: 105px;
+      }
+      to {
+        x: 395px;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    /* Tremida rápida apenas simulando a batida da tecla */
+    @keyframes keypress {
+      0%, 90%, 100% {
+        transform: translate(0, 0);
+      }
+
+      91% {
+        transform: translate(-2px, 0);
+      }
+
+      93% {
+        transform: translate(2px, 0);
+      }
+
+      95% {
+        transform: translate(-1px, 1px);
+      }
+
+      97% {
+        transform: translate(1px, -1px);
+      }
+
+      99% {
+        transform: translate(0, 0);
+      }
+    }
+  </style>
+
   <defs>
-    <clipPath id="reveal">
-      <rect x="40" y="20" height="70" width="0">
-        <animate attributeName="width" dur="5s" repeatCount="indefinite" calcMode="discrete"
-          values="0;24;48;72;96;120;144;168;192;216;240;264;288;312;312;312;312;312;312;312"/>
-      </rect>
+    <clipPath id="clip">
+      <rect
+        class="mask"
+        x="105"
+        y="15"
+        width="0"
+        height="80" />
     </clipPath>
   </defs>
 
-  <text x="40" y="70" font-family="'Courier New', Courier, monospace" font-size="40"
-        font-weight="bold" fill="#3fb950" clip-path="url(#reveal)">Hello, World!</text>
+  <g class="shake">
+    <text
+      x="250"
+      y="70"
+      text-anchor="middle"
+      class="typing"
+      clip-path="url(#clip)">
+      HELLO WORLD!
+    </text>
+  </g>
 
-  <rect y="30" width="4" height="48" fill="#3fb950">
-    <animate attributeName="x" dur="5s" repeatCount="indefinite" calcMode="discrete"
-      values="40;64;88;112;136;160;184;208;232;256;280;304;328;352;352;352;352;352;352;352"/>
-    <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
-      values="1;0"/>
-  </rect>
+  <rect
+    class="cursor"
+    x="105"
+    y="30"
+    width="4"
+    height="45"
+    fill="#3fb950" />
+
 </svg>
