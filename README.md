@@ -2,6 +2,8 @@
 
 # Filipe Fava
 
+<img src="./docs/hello.svg" alt="Hello, World!" />
+
 </div>
 
 <br/>
