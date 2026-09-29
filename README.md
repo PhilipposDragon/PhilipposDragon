@@ -1,16 +1,22 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**PhilipposDragon/PhilipposDragon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Filipe Fava
 
-Here are some ideas to get you started:
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhilipposDragon/PhilipposDragon/main/profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhilipposDragon/PhilipposDragon/main/profile-3d-contrib/profile-green.svg" />
+  <img src="https://raw.githubusercontent.com/PhilipposDragon/PhilipposDragon/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="Gráfico 3D de contribuições" />
+</picture>
+
+### stats
+
+<div align="center">
+
+<img src="https://github-readme-stats-fast.vercel.app/api?username=PhilipposDragon&show_icons=true&hide_border=true&bg_color=00000000&title_color=3fb950&icon_color=3fb950&text_color=8b949e" height="165" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=PhilipposDragon&layout=compact&hide_border=true&bg_color=00000000&title_color=3fb950&text_color=8b949e&langs_count=8" height="165" />
+
+</div>
