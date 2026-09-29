@@ -6,6 +6,7 @@
       fill: #3fb950;
     }
 
+    /* Digitação mais lenta */
     .mask {
       animation: type 8s steps(12) infinite;
     }
@@ -13,11 +14,12 @@
     .cursor {
       animation:
         typeCursor 8s steps(12) infinite,
-        blink 0.7s infinite;
+        blink .7s infinite;
     }
 
+    /* Pequena tremida quando uma nova letra aparece */
     .shake {
-      animation: keypress 0.67s infinite;
+      animation: keypress .67s infinite;
       transform-origin: center;
     }
 
@@ -26,16 +28,16 @@
         width: 0;
       }
       to {
-        width: 290px;
+        width: 315px;
       }
     }
 
     @keyframes typeCursor {
       from {
-        x: 105px;
+        x: 90px;
       }
       to {
-        x: 395px;
+        x: 405px;
       }
     }
 
@@ -45,30 +47,25 @@
       }
     }
 
-    /* Tremida rápida apenas simulando a batida da tecla */
     @keyframes keypress {
       0%, 90%, 100% {
         transform: translate(0, 0);
       }
 
-      91% {
+      92% {
         transform: translate(-2px, 0);
       }
 
-      93% {
+      94% {
         transform: translate(2px, 0);
       }
 
-      95% {
+      96% {
         transform: translate(-1px, 1px);
       }
 
-      97% {
+      98% {
         transform: translate(1px, -1px);
-      }
-
-      99% {
-        transform: translate(0, 0);
       }
     }
   </style>
@@ -77,10 +74,10 @@
     <clipPath id="clip">
       <rect
         class="mask"
-        x="105"
-        y="15"
+        x="90"
+        y="10"
         width="0"
-        height="80" />
+        height="90" />
     </clipPath>
   </defs>
 
@@ -97,10 +94,10 @@
 
   <rect
     class="cursor"
-    x="105"
-    y="30"
+    x="90"
+    y="28"
     width="4"
-    height="45"
+    height="48"
     fill="#3fb950" />
 
 </svg>
