@@ -44,7 +44,7 @@
     @keyframes blink { 50% { opacity: 0; } }
   </style>
 
-  <g transform="translate(16 0)">
+  <g transform="translate(20 0)">
   <g class="shake">
     <!-- texto: sobe no ENTER -->
     <g class="scroll">
