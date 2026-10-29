@@ -5,8 +5,7 @@ on:
     - cron: "43 15 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: readme-stats
@@ -16,30 +15,25 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     name: generate-readme-stats
+    permissions:
+      contents: write # necessário para commitar docs/*.svg
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - uses: actions/checkout@v4
-        with:
-          repository: anuraghazra/github-readme-stats
-          ref: 54a7985aeefda00d5eadb55b80c17c7f976c37d2
-          path: .grs
-
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
 
-      - name: Install dependencies
-        working-directory: .grs
-        run: npm install --omit=dev --ignore-scripts --no-audit --no-fund
-
+      # Sem "npm install": o código está na pasta readme-stats e não tem
+      # dependências do npm. Só roda o que está no seu repositório.
       - name: Generate cards
         env:
+          # Usa o secret STATS_TOKEN se existir (token pessoal sem escopo "repo");
+          # senão usa o GITHUB_TOKEN padrão do Actions.
           PAT_1: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
-          GRS_DIR: .grs
           OUT_DIR: docs
-        run: node .github/scripts/generate-readme-stats.mjs
+        run: node readme-stats/generate.mjs
 
       - name: Commit & Push
         run: |
