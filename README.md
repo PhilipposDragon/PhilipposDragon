@@ -18,6 +18,7 @@
 
 <div align="center">
 
-<img src="./docs/metrics.svg" alt="GitHub metrics" />
+<img src="./docs/stats.svg" alt="GitHub stats" height="165" />
+<img src="./docs/top-langs.svg" alt="Top languages" height="165" />
 
 </div>
