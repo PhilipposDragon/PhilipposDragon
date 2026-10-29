@@ -1,0 +1,6 @@
+{
+  "name": "readme-stats-vendored",
+  "private": true,
+  "type": "module",
+  "description": "Cópia mínima de github-readme-stats (MIT). Sem dependências do npm."
+}
