@@ -1,0 +1,52 @@
+name: README-Stats
+
+on:
+  schedule:
+    - cron: "43 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-stats
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    name: generate-readme-stats
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: anuraghazra/github-readme-stats
+          ref: 54a7985aeefda00d5eadb55b80c17c7f976c37d2
+          path: .grs
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        working-directory: .grs
+        run: npm install --omit=dev --ignore-scripts --no-audit --no-fund
+
+      - name: Generate cards
+        env:
+          PAT_1: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          GRS_DIR: .grs
+          OUT_DIR: docs
+        run: node .github/scripts/generate-readme-stats.mjs
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add docs/stats.svg docs/top-langs.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "generated readme stats"
+          git pull --rebase
+          git push
