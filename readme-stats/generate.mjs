@@ -33,6 +33,7 @@ const cards = [
         ...common,
         show_icons: true,
         icon_color: "3fb950",
+        custom_title: `${username}'s GitHub Stats`,
       }),
   },
   {
