@@ -1,106 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmZmRiZWVmZi1hYWJjLTQzZjAtOGRhYy1hMDFjNTQyY2E2ZDUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaODV6HHTJYyPjbZ5jvsGbyUAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoyOGE0M2ZlNC1kYzY4LTQ5ODYtYTQwZS1jN2VmZjE3ZGE0YTJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo6zdZBX4ljreQQUpvLUXC+QAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggee6+9/lamR4XD9FROl4XjAOXlM5GDlMhMNRLD6dlFmikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGsdDxBtsDG+HJAfdPv+zfsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCB/APBdHeZekn2/SpnEPr92yzge1ppv0QA0gzOviNwscmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmZmZGJlZWZmLWFhYmMtNDNmMC04ZGFjLWEwMWM1NDJjYTZkNS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjcwOGE3MTk3LTQ3MmYtNDg5OS04MTE2LWI2NzkzMmY4ZjU5Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB57r73+VqZHhcP0VE6XheMA5eUzkYOUyEw1EsPp2UWaKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggBv1jK34RVGhmrgIvpsarTJdbpZk84taWNWm2JoCJjUmiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggC57C2WKyiBxf0RatQYQQ7M0OBlHThOzXLeYMkKLMxR50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQN5Gzh7gUbcJHlq3Z0uzg/o+GtO4SSm2gHalNb28CMP+SUg5M0/yjtjLZBRRW3LwnJPW1ELwKrQFjFoWwzCbDUM=</c2pa:manifest></metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="504" height="100" viewBox="0 0 504 100">
+  <title>Hello, World! Philippos Dragon C# :)</title>
   <style>
     .t { font: bold 40px monospace; fill: #3fb950; opacity: 0; }
+    .t.tb { fill: #58a6ff; }
+    .t.tc { fill: #a371f7; }
 
-    /* digitação de cada letra (flash claro -> verde) e permanece visível até o fim do ciclo */
-    .l0{animation:k0 6.5s infinite}
-    @keyframes k0{0%,6.14%{opacity:0}6.15%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}10%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l1{animation:k1 6.5s infinite}
-    @keyframes k1{0%,10.76%{opacity:0}10.77%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}14.62%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l2{animation:k2 6.5s infinite}
-    @keyframes k2{0%,13.07%{opacity:0}13.08%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}16.92%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l3{animation:k3 6.5s infinite}
-    @keyframes k3{0%,21.53%{opacity:0}21.54%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}25.38%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l4{animation:k4 6.5s infinite}
-    @keyframes k4{0%,25.37%{opacity:0}25.38%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}29.23%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l6{animation:k6 6.5s infinite}
-    @keyframes k6{0%,38.45%{opacity:0}38.46%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}42.31%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l7{animation:k7 6.5s infinite}
-    @keyframes k7{0%,41.53%{opacity:0}41.54%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}45.38%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l8{animation:k8 6.5s infinite}
-    @keyframes k8{0%,47.68%{opacity:0}47.69%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}51.54%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l9{animation:k9 6.5s infinite}
-    @keyframes k9{0%,50.76%{opacity:0}50.77%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}54.62%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l10{animation:k10 6.5s infinite}
-    @keyframes k10{0%,56.91%{opacity:0}56.92%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}60.77%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
-    .l11{animation:k11 6.5s infinite}
-    @keyframes k11{0%,66.14%{opacity:0}66.15%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}70%{fill:#3fb950;stroke-width:0}99.9%{opacity:1}100%{opacity:0}}
+    /* digitação (flash claro -> cor final), teclas SP/ENTER e subida de cada texto */
+    .la0{animation:ka0 16.4s infinite}
+    @keyframes ka0{0%,2.43%{opacity:0}2.44%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}3.96%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la1{animation:ka1 16.4s infinite}
+    @keyframes ka1{0%,4.26%{opacity:0}4.27%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}5.79%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la2{animation:ka2 16.4s infinite}
+    @keyframes ka2{0%,5.17%{opacity:0}5.18%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}6.71%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la3{animation:ka3 16.4s infinite}
+    @keyframes ka3{0%,8.53%{opacity:0}8.54%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}10.06%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la4{animation:ka4 16.4s infinite}
+    @keyframes ka4{0%,10.05%{opacity:0}10.06%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}11.59%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .spa{animation:spa 16.4s infinite}
+    @keyframes spa{0%,13.4%{opacity:0}13.41%{opacity:1;color:#aff5b4}14.45%{color:#3fb950}14.94%{opacity:1}14.95%,100%{opacity:0}}
+    .la6{animation:ka6 16.4s infinite}
+    @keyframes ka6{0%,15.23%{opacity:0}15.24%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}16.77%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la7{animation:ka7 16.4s infinite}
+    @keyframes ka7{0%,16.45%{opacity:0}16.46%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}17.99%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la8{animation:ka8 16.4s infinite}
+    @keyframes ka8{0%,18.89%{opacity:0}18.9%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}20.43%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la9{animation:ka9 16.4s infinite}
+    @keyframes ka9{0%,20.11%{opacity:0}20.12%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}21.65%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la10{animation:ka10 16.4s infinite}
+    @keyframes ka10{0%,22.55%{opacity:0}22.56%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}24.09%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .la11{animation:ka11 16.4s infinite}
+    @keyframes ka11{0%,26.21%{opacity:0}26.22%{opacity:1;fill:#aff5b4;stroke:#aff5b4;stroke-width:1.5}27.74%{fill:#3fb950;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .ena{animation:ena 16.4s infinite}
+    @keyframes ena{0%,29.26%{opacity:0}29.27%{opacity:1;color:#aff5b4}30.06%{color:#3fb950}30.61%{opacity:1}30.62%,100%{opacity:0}}
+    .sca{animation:sca 16.4s infinite}
+    @keyframes sca { 0%,30.85% { transform: translateY(0); opacity: 1; animation-timing-function: ease-in; } 34.02%,100% { transform: translateY(-40px); opacity: 0; } }
+    .lb0{animation:kb0 16.4s infinite}
+    @keyframes kb0{0%,34.81%{opacity:0}34.82%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}36.34%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb1{animation:kb1 16.4s infinite}
+    @keyframes kb1{0%,36.64%{opacity:0}36.65%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}38.17%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb2{animation:kb2 16.4s infinite}
+    @keyframes kb2{0%,37.86%{opacity:0}37.87%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}39.39%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb3{animation:kb3 16.4s infinite}
+    @keyframes kb3{0%,39.08%{opacity:0}39.09%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}40.61%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb4{animation:kb4 16.4s infinite}
+    @keyframes kb4{0%,41.82%{opacity:0}41.83%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}43.35%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb5{animation:kb5 16.4s infinite}
+    @keyframes kb5{0%,43.04%{opacity:0}43.05%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}44.57%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb6{animation:kb6 16.4s infinite}
+    @keyframes kb6{0%,44.26%{opacity:0}44.27%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}45.79%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb7{animation:kb7 16.4s infinite}
+    @keyframes kb7{0%,46.7%{opacity:0}46.71%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}48.23%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb8{animation:kb8 16.4s infinite}
+    @keyframes kb8{0%,48.22%{opacity:0}48.23%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}49.76%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .spb{animation:spb 16.4s infinite}
+    @keyframes spb{0%,51.27%{opacity:0}51.28%{opacity:1;color:#a5d6ff}52.32%{color:#58a6ff}52.8%{opacity:1}52.81%,100%{opacity:0}}
+    .lb10{animation:kb10 16.4s infinite}
+    @keyframes kb10{0%,53.1%{opacity:0}53.11%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}54.63%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb11{animation:kb11 16.4s infinite}
+    @keyframes kb11{0%,54.62%{opacity:0}54.63%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}56.16%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb12{animation:kb12 16.4s infinite}
+    @keyframes kb12{0%,55.84%{opacity:0}55.85%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}57.38%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb13{animation:kb13 16.4s infinite}
+    @keyframes kb13{0%,58.28%{opacity:0}58.29%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}59.82%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb14{animation:kb14 16.4s infinite}
+    @keyframes kb14{0%,59.5%{opacity:0}59.51%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}61.04%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lb15{animation:kb15 16.4s infinite}
+    @keyframes kb15{0%,61.33%{opacity:0}61.34%{opacity:1;fill:#a5d6ff;stroke:#a5d6ff;stroke-width:1.5}62.87%{fill:#58a6ff;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .enb{animation:enb 16.4s infinite}
+    @keyframes enb{0%,67.73%{opacity:0}67.74%{opacity:1;color:#a5d6ff}68.54%{color:#58a6ff}69.09%{opacity:1}69.1%,100%{opacity:0}}
+    .scb{animation:scb 16.4s infinite}
+    @keyframes scb { 0%,69.33% { transform: translateY(0); opacity: 1; animation-timing-function: ease-in; } 72.5%,100% { transform: translateY(-40px); opacity: 0; } }
+    .lc0{animation:kc0 16.4s infinite}
+    @keyframes kc0{0%,73.28%{opacity:0}73.29%{opacity:1;fill:#d2a8ff;stroke:#d2a8ff;stroke-width:1.5}74.82%{fill:#a371f7;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lc1{animation:kc1 16.4s infinite}
+    @keyframes kc1{0%,75.72%{opacity:0}75.73%{opacity:1;fill:#d2a8ff;stroke:#d2a8ff;stroke-width:1.5}77.26%{fill:#a371f7;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .spc{animation:spc 16.4s infinite}
+    @keyframes spc{0%,79.08%{opacity:0}79.09%{opacity:1;color:#d2a8ff}80.12%{color:#a371f7}80.61%{opacity:1}80.62%,100%{opacity:0}}
+    .lc3{animation:kc3 16.4s infinite}
+    @keyframes kc3{0%,80.9%{opacity:0}80.91%{opacity:1;fill:#d2a8ff;stroke:#d2a8ff;stroke-width:1.5}82.44%{fill:#a371f7;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .lc4{animation:kc4 16.4s infinite}
+    @keyframes kc4{0%,82.43%{opacity:0}82.44%{opacity:1;fill:#d2a8ff;stroke:#d2a8ff;stroke-width:1.5}83.96%{fill:#a371f7;stroke-width:0}99.9%{opacity:1;stroke-width:0}100%{opacity:0}}
+    .enc{animation:enc 16.4s infinite}
+    @keyframes enc{0%,89.75%{opacity:0}89.76%{opacity:1;color:#d2a8ff}90.55%{color:#a371f7}91.1%{opacity:1}91.11%,100%{opacity:0}}
+    .scc{animation:scc 16.4s infinite}
+    @keyframes scc { 0%,91.34% { transform: translateY(0); opacity: 1; animation-timing-function: ease-in; } 94.51%,100% { transform: translateY(-40px); opacity: 0; } }
 
-    /* teclas: caixinha que pisca (flash claro -> verde) e some */
     .kbox { opacity: 0; color: #3fb950; }
+    .kbox.cb { color: #58a6ff; }
+    .kbox.cc { color: #a371f7; }
     .kbox rect  { fill: none; stroke: currentColor; stroke-width: 2; }
     .kbox path  { fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
     .kbox text  { fill: currentColor; font: bold 13px monospace; text-anchor: middle; }
 
-    /* SP: aparece quando o espaço é digitado (33.85%) e some antes do "W" */
-    .sp { animation: sp 6.5s infinite; }
-    @keyframes sp {
-      0%,33.84% { opacity: 0; }
-      33.85%    { opacity: 1; color: #aff5b4; }
-      36.5%     { opacity: 1; color: #3fb950; }
-      37.7%     { opacity: 1; }
-      37.71%,100% { opacity: 0; }
-    }
+    .shake { animation: shake 16.4s infinite; }
+    @keyframes shake { 0%{transform:translate(0,0)} 2.44%{transform:translate(-1.5px,1.5px)}2.74%{transform:translate(1px,-0.5px)}3.05%{transform:translate(0,0)} 4.27%{transform:translate(-1.5px,1.5px)}4.57%{transform:translate(1px,-0.5px)}4.88%{transform:translate(0,0)} 5.18%{transform:translate(-1.5px,1.5px)}5.49%{transform:translate(1px,-0.5px)}5.79%{transform:translate(0,0)} 8.54%{transform:translate(-1.5px,1.5px)}8.84%{transform:translate(1px,-0.5px)}9.15%{transform:translate(0,0)} 10.06%{transform:translate(-1.5px,1.5px)}10.37%{transform:translate(1px,-0.5px)}10.67%{transform:translate(0,0)} 13.41%{transform:translate(-1.5px,1.5px)}13.72%{transform:translate(1px,-0.5px)}14.02%{transform:translate(0,0)} 15.24%{transform:translate(-1.5px,1.5px)}15.55%{transform:translate(1px,-0.5px)}15.85%{transform:translate(0,0)} 16.46%{transform:translate(-1.5px,1.5px)}16.77%{transform:translate(1px,-0.5px)}17.07%{transform:translate(0,0)} 18.9%{transform:translate(-1.5px,1.5px)}19.21%{transform:translate(1px,-0.5px)}19.51%{transform:translate(0,0)} 20.12%{transform:translate(-1.5px,1.5px)}20.43%{transform:translate(1px,-0.5px)}20.73%{transform:translate(0,0)} 22.56%{transform:translate(-1.5px,1.5px)}22.87%{transform:translate(1px,-0.5px)}23.17%{transform:translate(0,0)} 26.22%{transform:translate(-1.5px,1.5px)}26.52%{transform:translate(1px,-0.5px)}26.83%{transform:translate(0,0)} 29.27%{transform:translate(-1.5px,1.5px)}29.57%{transform:translate(1px,-0.5px)}29.88%{transform:translate(0,0)} 32.99%{transform:translate(0,0)} 34.82%{transform:translate(-1.5px,1.5px)}35.12%{transform:translate(1px,-0.5px)}35.43%{transform:translate(0,0)} 36.65%{transform:translate(-1.5px,1.5px)}36.95%{transform:translate(1px,-0.5px)}37.26%{transform:translate(0,0)} 37.87%{transform:translate(-1.5px,1.5px)}38.17%{transform:translate(1px,-0.5px)}38.48%{transform:translate(0,0)} 39.09%{transform:translate(-1.5px,1.5px)}39.39%{transform:translate(1px,-0.5px)}39.7%{transform:translate(0,0)} 41.83%{transform:translate(-1.5px,1.5px)}42.13%{transform:translate(1px,-0.5px)}42.44%{transform:translate(0,0)} 43.05%{transform:translate(-1.5px,1.5px)}43.35%{transform:translate(1px,-0.5px)}43.66%{transform:translate(0,0)} 44.27%{transform:translate(-1.5px,1.5px)}44.57%{transform:translate(1px,-0.5px)}44.88%{transform:translate(0,0)} 46.71%{transform:translate(-1.5px,1.5px)}47.01%{transform:translate(1px,-0.5px)}47.32%{transform:translate(0,0)} 48.23%{transform:translate(-1.5px,1.5px)}48.54%{transform:translate(1px,-0.5px)}48.84%{transform:translate(0,0)} 51.28%{transform:translate(-1.5px,1.5px)}51.59%{transform:translate(1px,-0.5px)}51.89%{transform:translate(0,0)} 53.11%{transform:translate(-1.5px,1.5px)}53.41%{transform:translate(1px,-0.5px)}53.72%{transform:translate(0,0)} 54.63%{transform:translate(-1.5px,1.5px)}54.94%{transform:translate(1px,-0.5px)}55.24%{transform:translate(0,0)} 55.85%{transform:translate(-1.5px,1.5px)}56.16%{transform:translate(1px,-0.5px)}56.46%{transform:translate(0,0)} 58.29%{transform:translate(-1.5px,1.5px)}58.6%{transform:translate(1px,-0.5px)}58.9%{transform:translate(0,0)} 59.51%{transform:translate(-1.5px,1.5px)}59.82%{transform:translate(1px,-0.5px)}60.12%{transform:translate(0,0)} 61.34%{transform:translate(-1.5px,1.5px)}61.65%{transform:translate(1px,-0.5px)}61.95%{transform:translate(0,0)} 65.91%{transform:translate(0,0)} 67.74%{transform:translate(-1.5px,1.5px)}68.05%{transform:translate(1px,-0.5px)}68.35%{transform:translate(0,0)} 71.46%{transform:translate(0,0)} 73.29%{transform:translate(-1.5px,1.5px)}73.6%{transform:translate(1px,-0.5px)}73.9%{transform:translate(0,0)} 75.73%{transform:translate(-1.5px,1.5px)}76.04%{transform:translate(1px,-0.5px)}76.34%{transform:translate(0,0)} 79.09%{transform:translate(-1.5px,1.5px)}79.39%{transform:translate(1px,-0.5px)}79.7%{transform:translate(0,0)} 80.91%{transform:translate(-1.5px,1.5px)}81.22%{transform:translate(1px,-0.5px)}81.52%{transform:translate(0,0)} 82.44%{transform:translate(-1.5px,1.5px)}82.74%{transform:translate(1px,-0.5px)}83.05%{transform:translate(0,0)} 87.93%{transform:translate(0,0)} 89.76%{transform:translate(-1.5px,1.5px)}90.06%{transform:translate(1px,-0.5px)}90.37%{transform:translate(0,0)} }
 
-    /* ENTER: aparece no lugar do cursor (74%) e sobe junto com o texto */
-    .enter { animation: enterkey 6.5s infinite; }
-    @keyframes enterkey {
-      0%,73.99% { opacity: 0; }
-      74%       { opacity: 1; color: #aff5b4; }
-      76%       { color: #3fb950; }
-      77.4%     { opacity: 1; }
-      77.41%,100% { opacity: 0; }
-    }
-
-    /* ENTER: o texto sobe e some (78% -> 86%), depois pausa e reinicia */
-    .scroll { animation: scroll 6.5s infinite; }
-    @keyframes scroll {
-      0%,78%   { transform: translateY(0);     opacity: 1; animation-timing-function: ease-in; }
-      86%,100% { transform: translateY(-40px); opacity: 0; }
-    }
-
-    .shake { animation: shake 6.5s infinite; }
-    @keyframes shake { 0%{transform:translate(0,0)} 6.15%{transform:translate(-1.5px,1.5px)} 6.92%{transform:translate(1px,-0.5px)} 7.69%{transform:translate(0,0)} 10.77%{transform:translate(-1.5px,1.5px)} 11.54%{transform:translate(1px,-0.5px)} 12.31%{transform:translate(0,0)} 13.08%{transform:translate(-1.5px,1.5px)} 13.85%{transform:translate(1px,-0.5px)} 14.62%{transform:translate(0,0)} 21.54%{transform:translate(-1.5px,1.5px)} 22.31%{transform:translate(1px,-0.5px)} 23.08%{transform:translate(0,0)} 25.38%{transform:translate(-1.5px,1.5px)} 26.15%{transform:translate(1px,-0.5px)} 26.92%{transform:translate(0,0)} 33.85%{transform:translate(-1.5px,1.5px)} 34.62%{transform:translate(1px,-0.5px)} 35.38%{transform:translate(0,0)} 38.46%{transform:translate(-1.5px,1.5px)} 39.23%{transform:translate(1px,-0.5px)} 40%{transform:translate(0,0)} 41.54%{transform:translate(-1.5px,1.5px)} 42.31%{transform:translate(1px,-0.5px)} 43.08%{transform:translate(0,0)} 47.69%{transform:translate(-1.5px,1.5px)} 48.46%{transform:translate(1px,-0.5px)} 49.23%{transform:translate(0,0)} 50.77%{transform:translate(-1.5px,1.5px)} 51.54%{transform:translate(1px,-0.5px)} 52.31%{transform:translate(0,0)} 56.92%{transform:translate(-1.5px,1.5px)} 57.69%{transform:translate(1px,-0.5px)} 58.46%{transform:translate(0,0)} 66.15%{transform:translate(-1.5px,1.5px)} 66.92%{transform:translate(1px,-0.5px)} 67.69%{transform:translate(0,0)} 74%{transform:translate(-1.5px,1.5px)} 74.77%{transform:translate(1px,-0.5px)} 75.54%{transform:translate(0,0)} }
-
-    /* cursor avança letra a letra; some enquanto a tecla ENTER aparece (74%-78%)
-       e volta para o início da linha quando o texto sobe (78%) */
-    .move { animation: move 6.5s step-end infinite, hide 6.5s step-end infinite; }
-    @keyframes move { 0%{transform:translateX(0)} 6.15%{transform:translateX(26px)} 10.77%{transform:translateX(52px)} 13.08%{transform:translateX(78px)} 21.54%{transform:translateX(104px)} 25.38%{transform:translateX(130px)} 33.85%{transform:translateX(156px)} 38.46%{transform:translateX(182px)} 41.54%{transform:translateX(208px)} 47.69%{transform:translateX(234px)} 50.77%{transform:translateX(260px)} 56.92%{transform:translateX(286px)} 66.15%{transform:translateX(312px)} 78%,100%{transform:translateX(0)} }
-    @keyframes hide { 0%{opacity:1} 74%{opacity:0} 78%,100%{opacity:1} }
-
-    .cursor { fill: #3fb950; animation: blink .7s step-end infinite; }
+    /* cursor: avança letra a letra, some no ENTER e volta ao início quando o texto sobe */
+    .move { animation: move 16.4s step-end infinite, hide 16.4s step-end infinite; }
+    @keyframes move { 0%{transform:translate(0px,0)}2.44%{transform:translate(26px,0)}4.27%{transform:translate(52px,0)}5.18%{transform:translate(78px,0)}8.54%{transform:translate(104px,0)}10.06%{transform:translate(130px,0)}13.41%{transform:translate(156px,0)}15.24%{transform:translate(182px,0)}16.46%{transform:translate(208px,0)}18.9%{transform:translate(234px,0)}20.12%{transform:translate(260px,0)}22.56%{transform:translate(286px,0)}26.22%{transform:translate(312px,0)}30.85%{transform:translate(0px,0)}34.82%{transform:translate(26px,0)}36.65%{transform:translate(52px,0)}37.87%{transform:translate(78px,0)}39.09%{transform:translate(104px,0)}41.83%{transform:translate(130px,0)}43.05%{transform:translate(156px,0)}44.27%{transform:translate(182px,0)}46.71%{transform:translate(208px,0)}48.23%{transform:translate(234px,0)}51.28%{transform:translate(260px,0)}53.11%{transform:translate(286px,0)}54.63%{transform:translate(312px,0)}55.85%{transform:translate(338px,0)}58.29%{transform:translate(364px,0)}59.51%{transform:translate(390px,0)}61.34%{transform:translate(416px,0)}69.33%{transform:translate(0px,0)}73.29%{transform:translate(26px,0)}75.73%{transform:translate(52px,0)}79.09%{transform:translate(78px,0)}80.91%{transform:translate(104px,0)}82.44%{transform:translate(130px,0)}91.34%{transform:translate(0px,0)} }
+    @keyframes hide { 0%{opacity:1}29.27%{opacity:0}30.85%{opacity:1}67.74%{opacity:0}69.33%{opacity:1}89.76%{opacity:0}91.34%,100%{opacity:1} }
+    .cursor { fill: #3fb950; animation: blink .7s step-end infinite, cfill 16.4s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
+    @keyframes cfill { 0%{fill:#3fb950}30.85%{fill:#58a6ff}69.33%{fill:#a371f7}91.34%,100%{fill:#3fb950} }
   </style>
 
   <g transform="translate(20 0)">
   <g class="shake">
-    <!-- texto + teclas: sobem no ENTER -->
-    <g class="scroll">
-      <text class="t l0" x="30" y="65">H</text>
-      <text class="t l1" x="56" y="65">E</text>
-      <text class="t l2" x="82" y="65">L</text>
-      <text class="t l3" x="108" y="65">L</text>
-      <text class="t l4" x="134" y="65">O</text>
-      <text class="t l6" x="186" y="65">W</text>
-      <text class="t l7" x="212" y="65">O</text>
-      <text class="t l8" x="238" y="65">R</text>
-      <text class="t l9" x="264" y="65">L</text>
-      <text class="t l10" x="290" y="65">D</text>
-      <text class="t l11" x="316" y="65">!</text>
+    <g class="sca">
+      <text class="t ta la0" x="30" y="65">H</text>
+      <text class="t ta la1" x="56" y="65">E</text>
+      <text class="t ta la2" x="82" y="65">L</text>
+      <text class="t ta la3" x="108" y="65">L</text>
+      <text class="t ta la4" x="134" y="65">O</text>
+      <text class="t ta la6" x="186" y="65">W</text>
+      <text class="t ta la7" x="212" y="65">O</text>
+      <text class="t ta la8" x="238" y="65">R</text>
+      <text class="t ta la9" x="264" y="65">L</text>
+      <text class="t ta la10" x="290" y="65">D</text>
+      <text class="t ta la11" x="316" y="65">!</text>
 
-      <!-- tecla SP (no lugar do espaço) -->
-      <g class="kbox sp" transform="translate(160 0)">
+      <g class="kbox ca spa" transform="translate(160 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <text x="13" y="55">SP</text>
       </g>
-
-      <!-- tecla ENTER (no lugar do cursor, depois do "!") -->
-      <g class="kbox enter" transform="translate(342 0)">
+      <g class="kbox ca ena" transform="translate(342 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <path d="M19 45 V54 H8 M12 50 L8 54 L12 58"/>
       </g>
     </g>
-    <!-- cursor: fora do grupo que sobe, então fica na "nova linha" -->
+    <g class="scb">
+      <text class="t tb lb0" x="30" y="65">P</text>
+      <text class="t tb lb1" x="56" y="65">H</text>
+      <text class="t tb lb2" x="82" y="65">I</text>
+      <text class="t tb lb3" x="108" y="65">L</text>
+      <text class="t tb lb4" x="134" y="65">I</text>
+      <text class="t tb lb5" x="160" y="65">P</text>
+      <text class="t tb lb6" x="186" y="65">P</text>
+      <text class="t tb lb7" x="212" y="65">O</text>
+      <text class="t tb lb8" x="238" y="65">S</text>
+      <text class="t tb lb10" x="290" y="65">D</text>
+      <text class="t tb lb11" x="316" y="65">R</text>
+      <text class="t tb lb12" x="342" y="65">A</text>
+      <text class="t tb lb13" x="368" y="65">G</text>
+      <text class="t tb lb14" x="394" y="65">O</text>
+      <text class="t tb lb15" x="420" y="65">N</text>
+
+      <g class="kbox cb spb" transform="translate(264 0)">
+        <rect x="1" y="34" width="24" height="34" rx="3"/>
+        <text x="13" y="55">SP</text>
+      </g>
+      <g class="kbox cb enb" transform="translate(446 0)">
+        <rect x="1" y="34" width="24" height="34" rx="3"/>
+        <path d="M19 45 V54 H8 M12 50 L8 54 L12 58"/>
+      </g>
+    </g>
+    <g class="scc">
+      <text class="t tc lc0" x="30" y="65">C</text>
+      <text class="t tc lc1" x="56" y="65">#</text>
+      <text class="t tc lc3" x="108" y="65">:</text>
+      <text class="t tc lc4" x="134" y="65">)</text>
+
+      <g class="kbox cc spc" transform="translate(82 0)">
+        <rect x="1" y="34" width="24" height="34" rx="3"/>
+        <text x="13" y="55">SP</text>
+      </g>
+      <g class="kbox cc enc" transform="translate(160 0)">
+        <rect x="1" y="34" width="24" height="34" rx="3"/>
+        <path d="M19 45 V54 H8 M12 50 L8 54 L12 58"/>
+      </g>
+    </g>
+    <!-- cursor: fora dos grupos que sobem -->
     <g class="move">
       <rect class="cursor" x="30" y="27" width="4" height="46"/>
     </g>
