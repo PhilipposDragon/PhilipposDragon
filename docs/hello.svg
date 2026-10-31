@@ -97,7 +97,7 @@
 
     /* cursor: avança letra a letra, some no ENTER e volta ao início quando o texto sobe */
     .move { animation: move 16.4s step-end infinite, hide 16.4s step-end infinite; }
-    @keyframes move { 0%{transform:translate(0px,0)}2.44%{transform:translate(26px,0)}4.27%{transform:translate(52px,0)}5.18%{transform:translate(78px,0)}8.54%{transform:translate(104px,0)}10.06%{transform:translate(130px,0)}13.41%{transform:translate(156px,0)}15.24%{transform:translate(182px,0)}16.46%{transform:translate(208px,0)}18.9%{transform:translate(234px,0)}20.12%{transform:translate(260px,0)}22.56%{transform:translate(286px,0)}26.22%{transform:translate(312px,0)}30.85%{transform:translate(0px,0)}34.82%{transform:translate(26px,0)}36.65%{transform:translate(52px,0)}37.87%{transform:translate(78px,0)}39.09%{transform:translate(104px,0)}41.83%{transform:translate(130px,0)}43.05%{transform:translate(156px,0)}44.27%{transform:translate(182px,0)}46.71%{transform:translate(208px,0)}48.23%{transform:translate(234px,0)}51.28%{transform:translate(260px,0)}53.11%{transform:translate(286px,0)}54.63%{transform:translate(312px,0)}55.85%{transform:translate(338px,0)}58.29%{transform:translate(364px,0)}59.51%{transform:translate(390px,0)}61.34%{transform:translate(416px,0)}69.33%{transform:translate(0px,0)}73.29%{transform:translate(26px,0)}75.73%{transform:translate(52px,0)}79.09%{transform:translate(78px,0)}80.91%{transform:translate(104px,0)}82.44%{transform:translate(130px,0)}91.34%{transform:translate(0px,0)} }
+    @keyframes move { 0%{transform:translate(47px,0)}2.44%{transform:translate(73px,0)}4.27%{transform:translate(99px,0)}5.18%{transform:translate(125px,0)}8.54%{transform:translate(151px,0)}10.06%{transform:translate(177px,0)}13.41%{transform:translate(203px,0)}15.24%{transform:translate(229px,0)}16.46%{transform:translate(255px,0)}18.9%{transform:translate(281px,0)}20.12%{transform:translate(307px,0)}22.56%{transform:translate(333px,0)}26.22%{transform:translate(359px,0)}30.85%{transform:translate(-5px,0)}34.82%{transform:translate(21px,0)}36.65%{transform:translate(47px,0)}37.87%{transform:translate(73px,0)}39.09%{transform:translate(99px,0)}41.83%{transform:translate(125px,0)}43.05%{transform:translate(151px,0)}44.27%{transform:translate(177px,0)}46.71%{transform:translate(203px,0)}48.23%{transform:translate(229px,0)}51.28%{transform:translate(255px,0)}53.11%{transform:translate(281px,0)}54.63%{transform:translate(307px,0)}55.85%{transform:translate(333px,0)}58.29%{transform:translate(359px,0)}59.51%{transform:translate(385px,0)}61.34%{transform:translate(411px,0)}69.33%{transform:translate(138px,0)}73.29%{transform:translate(164px,0)}75.73%{transform:translate(190px,0)}79.09%{transform:translate(216px,0)}80.91%{transform:translate(242px,0)}82.44%{transform:translate(268px,0)}91.34%{transform:translate(47px,0)} }
     @keyframes hide { 0%{opacity:1}29.27%{opacity:0}30.85%{opacity:1}67.74%{opacity:0}69.33%{opacity:1}89.76%{opacity:0}91.34%,100%{opacity:1} }
     .cursor { fill: #3fb950; animation: blink .7s step-end infinite, cfill 16.4s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
@@ -107,64 +107,64 @@
   <g transform="translate(20 0)">
   <g class="shake">
     <g class="sca">
-      <text class="t ta la0" x="30" y="65">H</text>
-      <text class="t ta la1" x="56" y="65">E</text>
-      <text class="t ta la2" x="82" y="65">L</text>
-      <text class="t ta la3" x="108" y="65">L</text>
-      <text class="t ta la4" x="134" y="65">O</text>
-      <text class="t ta la6" x="186" y="65">W</text>
-      <text class="t ta la7" x="212" y="65">O</text>
-      <text class="t ta la8" x="238" y="65">R</text>
-      <text class="t ta la9" x="264" y="65">L</text>
-      <text class="t ta la10" x="290" y="65">D</text>
-      <text class="t ta la11" x="316" y="65">!</text>
+      <text class="t ta la0" x="77" y="65">H</text>
+      <text class="t ta la1" x="103" y="65">E</text>
+      <text class="t ta la2" x="129" y="65">L</text>
+      <text class="t ta la3" x="155" y="65">L</text>
+      <text class="t ta la4" x="181" y="65">O</text>
+      <text class="t ta la6" x="233" y="65">W</text>
+      <text class="t ta la7" x="259" y="65">O</text>
+      <text class="t ta la8" x="285" y="65">R</text>
+      <text class="t ta la9" x="311" y="65">L</text>
+      <text class="t ta la10" x="337" y="65">D</text>
+      <text class="t ta la11" x="363" y="65">!</text>
 
-      <g class="kbox ca spa" transform="translate(160 0)">
+      <g class="kbox ca spa" transform="translate(207 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <text x="13" y="55">SP</text>
       </g>
-      <g class="kbox ca ena" transform="translate(342 0)">
+      <g class="kbox ca ena" transform="translate(389 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <path d="M19 45 V54 H8 M12 50 L8 54 L12 58"/>
       </g>
     </g>
     <g class="scb">
-      <text class="t tb lb0" x="30" y="65">P</text>
-      <text class="t tb lb1" x="56" y="65">H</text>
-      <text class="t tb lb2" x="82" y="65">I</text>
-      <text class="t tb lb3" x="108" y="65">L</text>
-      <text class="t tb lb4" x="134" y="65">I</text>
-      <text class="t tb lb5" x="160" y="65">P</text>
-      <text class="t tb lb6" x="186" y="65">P</text>
-      <text class="t tb lb7" x="212" y="65">O</text>
-      <text class="t tb lb8" x="238" y="65">S</text>
-      <text class="t tb lb10" x="290" y="65">D</text>
-      <text class="t tb lb11" x="316" y="65">R</text>
-      <text class="t tb lb12" x="342" y="65">A</text>
-      <text class="t tb lb13" x="368" y="65">G</text>
-      <text class="t tb lb14" x="394" y="65">O</text>
-      <text class="t tb lb15" x="420" y="65">N</text>
+      <text class="t tb lb0" x="25" y="65">P</text>
+      <text class="t tb lb1" x="51" y="65">H</text>
+      <text class="t tb lb2" x="77" y="65">I</text>
+      <text class="t tb lb3" x="103" y="65">L</text>
+      <text class="t tb lb4" x="129" y="65">I</text>
+      <text class="t tb lb5" x="155" y="65">P</text>
+      <text class="t tb lb6" x="181" y="65">P</text>
+      <text class="t tb lb7" x="207" y="65">O</text>
+      <text class="t tb lb8" x="233" y="65">S</text>
+      <text class="t tb lb10" x="285" y="65">D</text>
+      <text class="t tb lb11" x="311" y="65">R</text>
+      <text class="t tb lb12" x="337" y="65">A</text>
+      <text class="t tb lb13" x="363" y="65">G</text>
+      <text class="t tb lb14" x="389" y="65">O</text>
+      <text class="t tb lb15" x="415" y="65">N</text>
 
-      <g class="kbox cb spb" transform="translate(264 0)">
+      <g class="kbox cb spb" transform="translate(259 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <text x="13" y="55">SP</text>
       </g>
-      <g class="kbox cb enb" transform="translate(446 0)">
+      <g class="kbox cb enb" transform="translate(441 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <path d="M19 45 V54 H8 M12 50 L8 54 L12 58"/>
       </g>
     </g>
     <g class="scc">
-      <text class="t tc lc0" x="30" y="65">C</text>
-      <text class="t tc lc1" x="56" y="65">#</text>
-      <text class="t tc lc3" x="108" y="65">:</text>
-      <text class="t tc lc4" x="134" y="65">)</text>
+      <text class="t tc lc0" x="168" y="65">C</text>
+      <text class="t tc lc1" x="194" y="65">#</text>
+      <text class="t tc lc3" x="246" y="65">:</text>
+      <text class="t tc lc4" x="272" y="65">)</text>
 
-      <g class="kbox cc spc" transform="translate(82 0)">
+      <g class="kbox cc spc" transform="translate(220 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <text x="13" y="55">SP</text>
       </g>
-      <g class="kbox cc enc" transform="translate(160 0)">
+      <g class="kbox cc enc" transform="translate(298 0)">
         <rect x="1" y="34" width="24" height="34" rx="3"/>
         <path d="M19 45 V54 H8 M12 50 L8 54 L12 58"/>
       </g>
